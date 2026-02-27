@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { Mail, MapPin, Globe, Github, Twitter, Facebook, Instagram, Youtube, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -61,7 +62,11 @@ export default function ContactoPage() {
           <span className="tag bg-lp-gray text-lp-black mb-4 inline-block">Comunidad & Contacto</span>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-6">Sumate a la Red</h1>
           <p className="text-xl text-lp-gray leading-relaxed max-w-2xl mx-auto">
-            Conectate con el equipo del proyecto LibreIncu. Somos AlterMundi y CTO, trabajando en red con organizaciones rurales de toda la provincia de Córdoba.
+            Conectate con el equipo del proyecto LibreIncu. Somos{' '}
+            <a href="https://altermundi.net" target="_blank" rel="noopener noreferrer" className="font-bold underline underline-offset-2 hover:text-lp-yellow transition-colors">AlterMundi</a>{' '}
+            y{' '}
+            <Link href="/cto" className="font-bold underline underline-offset-2 hover:text-lp-yellow transition-colors">CTO</Link>,
+            trabajando en red con organizaciones rurales de toda la provincia de Córdoba.
           </p>
         </div>
       </section>

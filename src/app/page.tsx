@@ -14,6 +14,7 @@ import {
   CheckCircle,
   ExternalLink,
   Network,
+  Smartphone,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -69,12 +70,20 @@ const navCards = [
     badge: 'Hardware/Code',
   },
   {
-    href: '/aplicacion',
-    icon: Wifi,
-    title: 'Aplicación Móvil',
-    desc: 'Descarga y manual de la aplicación Android de control remoto.',
+    href: '/app-movil',
+    icon: Smartphone,
+    title: 'Demo de la App',
+    desc: 'Explorá de forma interactiva la app Android de control remoto.',
     color: 'border-lp-yellowLight hover:border-lp-yellow',
     badge: 'Software',
+  },
+  {
+    href: '/aplicacion',
+    icon: BookOpen,
+    title: 'Manual de Usuario',
+    desc: 'Guía completa de uso, conexión, funciones y configuración de la app.',
+    color: 'border-lp-gray hover:border-lp-yellow',
+    badge: 'Documentación',
   },
   {
     href: '/huevos',
@@ -96,7 +105,7 @@ const navCards = [
     href: '/ecosistema',
     icon: Network,
     title: 'Ecosistema',
-    desc: 'Descubrí cómo se integran las tecnologías de LibrePollo.',
+    desc: 'Descubrí cómo se integran las tecnologías de LibreIncu.',
     color: 'border-lp-gray hover:border-lp-yellow',
     badge: 'Tecnología',
   },
@@ -143,7 +152,7 @@ export default function Home() {
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-lp-white">
-              Proyecto LibrePollo
+              Proyecto LibreIncu
               <span className="block text-lp-yellow text-3xl sm:text-4xl lg:text-5xl mt-2 font-bold">
                 Soberanía Tecnológica y Alimentaria
               </span>
@@ -170,7 +179,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid grid-cols-2 sm:grid-cols-4 gap-6">
             {[
               { value: 'Hardware Libre', label: 'Incubadora LibreIncu' },
-              { value: 'Ecosistema', label: 'IoT Autónomo y Deshcehcado' },
+              { value: 'Ecosistema', label: 'IoT Autónomo y Deshecado' },
               { value: '100%', label: 'Código e info abierta' },
               { value: 'Comunidad', label: 'Desarrollo en co-creación' },
             ].map((stat, i) => (
@@ -190,10 +199,14 @@ export default function Home() {
             <span className="tag mb-4 inline-block bg-lp-gray text-lp-black">Por qué hacemos esto</span>
             <h2 className="section-title text-lp-black">De la Triple Dependencia a la Autonomía</h2>
             <p className="text-lp-grayDark font-medium leading-relaxed mb-6">
-              La producción avícola de base enfrenta el monopolio global en genética, forraje e infraestructura técnica. LibrePollo actúa como cuña operativa.
+              La producción avícola de base enfrenta el monopolio global en genética, forraje e infraestructura técnica. LibreIncu actúa como cuña operativa.
             </p>
             <p className="text-lp-black leading-relaxed mb-6">
-              El proyecto LibrePollo es impulsado desde <strong>AlterMundi</strong> y la <strong>Comunidad, Trabajo y Organización (CTO)</strong> para desarrollar la infraestructura tecnológica comunitaria (equipos, software y sensores como la "LibreIncu") que permita a la Agricultura Familiar, Campesina e Indígena reproducir pollitos y recuperar razas camperas de forma autosuficiente y ecológica.
+              El proyecto LibreIncu es impulsado desde{' '}
+              <a href="https://altermundi.net" target="_blank" rel="noopener noreferrer" className="font-bold underline underline-offset-2 hover:text-lp-yellowDark transition-colors">AlterMundi</a>{' '}
+              y la{' '}
+              <Link href="/cto" className="font-bold underline underline-offset-2 hover:text-lp-yellowDark transition-colors">Comunidad, Trabajo y Organización (CTO)</Link>{' '}
+              para desarrollar la infraestructura tecnológica comunitaria (equipos, software y sensores como la "LibreIncu") que permita a la Agricultura Familiar, Campesina e Indígena reproducir pollitos y recuperar razas camperas de forma autosuficiente y ecológica.
             </p>
             <Link href="/nosotros" className="text-lp-yellowDark hover:text-lp-yellow font-bold flex items-center gap-1 group">
               Leé nuestro manifiesto

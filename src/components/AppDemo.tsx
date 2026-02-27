@@ -56,7 +56,7 @@ export default function AppDemo() {
                 {/* Status bar */}
                 <div className="bg-lp-black text-white px-5 pt-7 pb-3 flex justify-between items-center z-10">
                     <div className="font-bold text-lg flex items-center gap-2">
-                        <span className="text-lp-yellow text-xl">🥚</span> LibrePollo
+                        <span className="text-lp-yellow text-xl">🥚</span> LibreIncu
                     </div>
                     <div className="flex gap-3">
                         <Bell size={18} className="text-lp-gray" />
@@ -202,11 +202,11 @@ export default function AppDemo() {
                 {/* Bottom Navigation */}
                 <div className="bg-white border-t border-slate-200 px-2 py-3 pb-6 flex justify-between z-10 shadow-[0_-10px_20px_-10px_rgba(0,0,0,0.05)]">
                     <NavItem icon={Home} label="Inicio" active={activeTab === 'inicio'} onClick={() => setActiveTab('inicio')} />
-                    <NavItem icon={Wifi} label="WiFi" active={activeTab === 'conexion'} onClick={() => setActiveTab('conexion')} />
+                    <NavItem icon={Wifi} label="Conexión" active={activeTab === 'conexion'} onClick={() => setActiveTab('conexion')} />
                     <NavItem icon={Settings} label="Config" active={activeTab === 'config'} onClick={() => setActiveTab('config')} />
-                    <NavItem icon={Layers} label="Ciclos" active={activeTab === 'contador'} onClick={() => setActiveTab('contador')} />
-                    <NavItem icon={RotateCcw} label="Rotar" active={activeTab === 'rotacion'} onClick={() => setActiveTab('rotacion')} />
-                    <NavItem icon={Activity} label="Datos" active={activeTab === 'grafana'} onClick={() => setActiveTab('grafana')} />
+                    <NavItem icon={Layers} label="Contador" active={activeTab === 'contador'} onClick={() => setActiveTab('contador')} />
+                    <NavItem icon={RotateCcw} label="Rotación" active={activeTab === 'rotacion'} onClick={() => setActiveTab('rotacion')} />
+                    <NavItem icon={Activity} label="Grafana" active={activeTab === 'grafana'} onClick={() => setActiveTab('grafana')} />
                 </div>
             </div>
         </div>

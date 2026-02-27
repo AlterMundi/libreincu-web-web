@@ -3,7 +3,7 @@ import { ArrowUpRight, CheckCircle2, Video } from 'lucide-react';
 
 export const metadata: Metadata = {
     title: 'Avances e Impacto',
-    description: 'Métricas, despliegues y resultados del proyecto LibrePollo en el territorio.',
+    description: 'Métricas, despliegues y resultados del proyecto LibreIncu en el territorio.',
 };
 
 export default function ImpactoPage() {
@@ -61,7 +61,7 @@ export default function ImpactoPage() {
                         </li>
                         <li className="flex flex-col">
                             <strong>Aplicación Móvil en Fase Estable</strong>
-                            <span className="text-sm text-lp-grayDark">La aplicación para Android "App LibrePollo" permite ahora la configuración de alarmas sonoras e hidratación manual remotas.</span>
+                            <span className="text-sm text-lp-grayDark">La aplicación para Android "App LibreIncu" permite ahora la configuración de alarmas sonoras e hidratación manual remotas.</span>
                         </li>
                         <li className="flex flex-col">
                             <strong>Validación del Sistema Térmico PID</strong>
@@ -114,7 +114,7 @@ export default function ImpactoPage() {
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src="https://img.youtube.com/vi/SZky4Ak8hUw/maxresdefault.jpg"
-                                    alt="Equipo LibrePollo"
+                                    alt="Equipo LibreIncu"
                                     className="w-full aspect-video object-cover"
                                 />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">

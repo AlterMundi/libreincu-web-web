@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="bg-lp-yellow text-lp-black rounded-lg p-1.5">
                 <Egg size={20} />
               </div>
-              <span className="text-xl font-bold">LibrePollo</span>
+              <span className="text-xl font-bold">LibreIncu</span>
             </div>
             <p className="text-lp-gray text-sm leading-relaxed mb-4 max-w-sm">
               Tecnología libre para la soberanía alimentaria. Desarrollado por AlterMundi y CTO junto con comunidades
@@ -30,7 +30,7 @@ export default function Footer() {
               {[
                 { href: '/manual', label: 'Manual de Usuario' },
                 { href: '/huevos', label: 'Huevos e Incubación' },
-                { href: '/aplicacion', label: 'App LibrePollo' },
+                { href: '/aplicacion', label: 'App LibreIncu' },
                 { href: '/especificaciones', label: 'Especificaciones' },
                 { href: '/solucion-problemas', label: 'Solución de Problemas' },
               ].map((item) => (

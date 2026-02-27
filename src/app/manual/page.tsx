@@ -3,8 +3,8 @@ import PageHeader from '@/components/PageHeader';
 import { Thermometer, Droplets, RotateCcw, Cpu, Wifi, MapPin, AlertTriangle, CheckCircle, Wrench } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Manual Básico de Incubadoras LibrePollo',
-  description: 'Guía completa de uso, instalación, mantenimiento y solución de problemas de la incubadora LibrePollo.',
+  title: 'Manual Básico de Incubadoras LibreIncu',
+  description: 'Guía completa de uso, instalación, mantenimiento y solución de problemas de la incubadora LibreIncu.',
 };
 
 const components = [
@@ -51,7 +51,7 @@ const components = [
     border: 'border-green-100',
     items: [
       { name: 'Placa de Control', desc: 'Circuito empoderado por microcontrolador ESP32-S. Conecta motores, resistencias y sensores.' },
-      { name: 'App LibrePollo', desc: 'Permite acceder en cualquier momento al estado de la incubadora: temperatura, humedad, historial, notificaciones y gestión de bandejas.' },
+      { name: 'App LibreIncu', desc: 'Permite acceder en cualquier momento al estado de la incubadora: temperatura, humedad, historial, notificaciones y gestión de bandejas.' },
     ],
   },
 ];
@@ -130,7 +130,7 @@ export default function ManualPage() {
   return (
     <>
       <PageHeader
-        title="Manual de Usuario – Incubadora LibrePollo"
+        title="Manual de Usuario – Incubadora LibreIncu"
         subtitle="Innovación tecnológica y productiva en la cadena avícola para la agricultura familiar, campesina e indígena."
         emoji="📖"
         badge="Manual Completo"

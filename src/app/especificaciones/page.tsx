@@ -151,7 +151,7 @@ export default function EspecificacionesPage() {
                     {[
                       { item: 'Microcontrolador', detail: 'ESP32 (cerebro del sistema)' },
                       { item: 'Conectividad', detail: 'WiFi para control remoto' },
-                      { item: 'App de control', detail: 'LibrePollo para Android' },
+                      { item: 'App de control', detail: 'LibreIncu para Android' },
                       { item: 'Visualización histórica', detail: 'Grafana (datos de temperatura y humedad)' },
                     ].map((row, i) => (
                       <tr key={i} className={`border-b border-gray-50 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>

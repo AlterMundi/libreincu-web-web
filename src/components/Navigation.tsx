@@ -25,7 +25,7 @@ export default function Navigation() {
             <div className="bg-lp-yellow text-lp-black rounded-lg p-1.5 group-hover:bg-lp-yellowLight transition-colors">
               <Egg size={20} />
             </div>
-            <span className="text-lg font-bold text-lp-black">LibrePollo</span>
+            <span className="text-lg font-bold text-lp-black">LibreIncu</span>
           </Link>
 
           {/* Desktop Nav */}
