@@ -14,13 +14,6 @@ export default function Footer() {
               </div>
               <span className="text-xl font-bold">LibreIncu</span>
             </div>
-            <p className="text-lp-gray text-sm leading-relaxed mb-4 max-w-sm">
-              Tecnología libre para la soberanía alimentaria. Desarrollado por AlterMundi y CTO junto con comunidades
-              de la Agricultura Familiar, Campesina e Indígena de Córdoba, Argentina.
-            </p>
-            <p className="text-lp-grayDark text-xs italic">
-              &ldquo;La tecnología debe estar al servicio de las comunidades, no al revés&rdquo;
-            </p>
           </div>
 
           {/* Links */}
