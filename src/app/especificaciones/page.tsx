@@ -59,7 +59,7 @@ export default function EspecificacionesPage() {
               <div key={i} className="card p-4 flex items-start gap-3">
                 <spec.icon className="text-green-500 shrink-0 mt-0.5" size={18} />
                 <div>
-                  <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">{spec.label}</p>
+                  <p className="text-xs text-gray-600 font-medium uppercase tracking-wide">{spec.label}</p>
                   <p className="text-gray-800 font-semibold text-sm mt-0.5">{spec.value}</p>
                 </div>
               </div>
@@ -87,10 +87,11 @@ export default function EspecificacionesPage() {
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
+                  <caption className="sr-only">Sistema de Control Térmico</caption>
                   <tbody>
                     {thermalSpecs.map((row, i) => (
                       <tr key={i} className={`border-b border-gray-50 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
-                        <td className="p-3 font-medium text-gray-800 w-1/3">{row.item}</td>
+                        <th scope="row" className="p-3 font-medium text-gray-800 w-1/3 text-left">{row.item}</th>
                         <td className="p-3 text-gray-600">{row.detail}</td>
                       </tr>
                     ))}
@@ -107,10 +108,11 @@ export default function EspecificacionesPage() {
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
+                  <caption className="sr-only">Sistema de Humidificación</caption>
                   <tbody>
                     {humidSpecs.map((row, i) => (
                       <tr key={i} className={`border-b border-gray-50 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
-                        <td className="p-3 font-medium text-gray-800 w-1/3">{row.item}</td>
+                        <th scope="row" className="p-3 font-medium text-gray-800 w-1/3 text-left">{row.item}</th>
                         <td className="p-3 text-gray-600">{row.detail}</td>
                       </tr>
                     ))}
@@ -127,10 +129,11 @@ export default function EspecificacionesPage() {
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
+                  <caption className="sr-only">Sistema de Rotación</caption>
                   <tbody>
                     {rotationSpecs.map((row, i) => (
                       <tr key={i} className={`border-b border-gray-50 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
-                        <td className="p-3 font-medium text-gray-800 w-1/3">{row.item}</td>
+                        <th scope="row" className="p-3 font-medium text-gray-800 w-1/3 text-left">{row.item}</th>
                         <td className="p-3 text-gray-600">{row.detail}</td>
                       </tr>
                     ))}
@@ -147,6 +150,7 @@ export default function EspecificacionesPage() {
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
+                  <caption className="sr-only">Control Electrónico</caption>
                   <tbody>
                     {[
                       { item: 'Microcontrolador', detail: 'ESP32 (cerebro del sistema)' },
@@ -155,7 +159,7 @@ export default function EspecificacionesPage() {
                       { item: 'Visualización histórica', detail: 'Grafana (datos de temperatura y humedad)' },
                     ].map((row, i) => (
                       <tr key={i} className={`border-b border-gray-50 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
-                        <td className="p-3 font-medium text-gray-800 w-1/3">{row.item}</td>
+                        <th scope="row" className="p-3 font-medium text-gray-800 w-1/3 text-left">{row.item}</th>
                         <td className="p-3 text-gray-600">{row.detail}</td>
                       </tr>
                     ))}
@@ -251,7 +255,7 @@ export default function EspecificacionesPage() {
           <div className="mt-6 card p-5 bg-gray-900 text-white flex items-center justify-between gap-4 flex-wrap">
             <div>
               <p className="font-bold">Código fuente completo disponible</p>
-              <p className="text-gray-400 text-sm mt-1">Firmware, App Android, y documentación técnica.</p>
+              <p className="text-gray-600 text-sm mt-1">Firmware, App Android, y documentación técnica.</p>
             </div>
             <a
               href="https://github.com/AlterMundi-MonitoreoyControl/Proyecto-Incubadora"

@@ -200,6 +200,8 @@ export default function Home() {
                 <img
                   src="https://img.youtube.com/vi/WrC1Y-ACtMo/maxresdefault.jpg"
                   alt="Presentación Incubadora AlterMundi"
+                  width={1280}
+                  height={720}
                   className="w-full aspect-video object-cover"
                 />
                 <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/20 transition-colors">

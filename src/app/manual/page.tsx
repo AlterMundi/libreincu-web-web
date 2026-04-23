@@ -328,7 +328,7 @@ export default function ManualPage() {
           </ul>
           <p className="text-xs text-green-500 mt-4">
             Este trabajo está bajo licencia{' '}
-            <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" className="underline">
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" className="underline">
               CC BY 4.0
             </a>
           </p>

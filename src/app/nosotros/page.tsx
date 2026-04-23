@@ -119,6 +119,7 @@ export default function NosotrosPage() {
 
       {/* Triple Dependencia */}
       <section className="py-16 px-4 max-w-4xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-lp-black mb-6">La triple dependencia</h2>
         <p className="text-lp-grayDark leading-relaxed text-lg mb-12">
           El proyecto busca romper la <strong className="text-lp-black">triple dependencia</strong> que enfrenta la AFCI en la producción avícola:
         </p>
@@ -276,7 +277,7 @@ export default function NosotrosPage() {
             <Link href="/contacto" className="btn-primary">
               Contactarnos
             </Link>
-            <Link href="https://github.com/AlterMundi-MonitoreoyControl" target="_blank" className="btn-secondary">
+            <Link href="https://github.com/AlterMundi-MonitoreoyControl" target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Ver Repositorios
             </Link>
           </div>

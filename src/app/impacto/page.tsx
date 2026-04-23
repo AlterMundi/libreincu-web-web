@@ -91,6 +91,8 @@ export default function ImpactoPage() {
                                 <img
                                     src="https://img.youtube.com/vi/WrC1Y-ACtMo/maxresdefault.jpg"
                                     alt="Presentación Incubadora AlterMundi"
+                                    width={1280}
+                                    height={720}
                                     className="w-full aspect-video object-cover"
                                 />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">
@@ -115,6 +117,8 @@ export default function ImpactoPage() {
                                 <img
                                     src="https://img.youtube.com/vi/SZky4Ak8hUw/maxresdefault.jpg"
                                     alt="Equipo LibreIncu"
+                                    width={1280}
+                                    height={720}
                                     className="w-full aspect-video object-cover"
                                 />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">

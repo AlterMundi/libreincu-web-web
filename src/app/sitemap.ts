@@ -14,6 +14,7 @@ const routes = [
   '/impacto',
   '/cto',
   '/contacto',
+  '/privacidad',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

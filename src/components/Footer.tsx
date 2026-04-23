@@ -23,9 +23,12 @@ export default function Footer() {
               {[
                 { href: '/manual', label: 'Manual de Usuario' },
                 { href: '/huevos', label: 'Huevos e Incubación' },
+                { href: '/buenas-practicas', label: 'Buenas Prácticas' },
                 { href: '/aplicacion', label: 'App LibreIncu' },
                 { href: '/especificaciones', label: 'Especificaciones' },
                 { href: '/solucion-problemas', label: 'Solución de Problemas' },
+                { href: '/ecosistema', label: 'Ecosistema LibreAgro' },
+                { href: '/privacidad', label: 'Privacidad' },
               ].map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="text-lp-gray hover:text-lp-yellow transition-colors text-sm">
@@ -84,7 +87,7 @@ export default function Footer() {
         <div className="mt-10 pt-8 border-t border-lp-grayDark flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-lp-gray text-xs">
             © 2025 AlterMundi &amp; CTO. Este trabajo está bajo licencia{' '}
-            <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer"
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer"
               className="underline hover:text-lp-yellow">
               CC BY 4.0
             </a>
