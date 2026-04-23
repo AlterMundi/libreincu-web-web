@@ -53,24 +53,29 @@ export default function Footer() {
             </ul>
             <div className="flex items-center gap-3 mt-4">
               <a href="https://github.com/AlterMundi-MonitoreoyControl" target="_blank" rel="noopener noreferrer"
+                aria-label="LibreIncu en GitHub"
                 className="text-lp-gray hover:text-lp-yellow transition-colors">
-                <Github size={18} />
+                <Github size={18} aria-hidden="true" />
               </a>
               <a href="https://x.com/altermundinet" target="_blank" rel="noopener noreferrer"
+                aria-label="AlterMundi en X (Twitter)"
                 className="text-lp-gray hover:text-lp-yellow transition-colors">
-                <Twitter size={18} />
+                <Twitter size={18} aria-hidden="true" />
               </a>
               <a href="https://www.facebook.com/altermundi.net" target="_blank" rel="noopener noreferrer"
+                aria-label="AlterMundi en Facebook"
                 className="text-lp-gray hover:text-lp-yellow transition-colors">
-                <Facebook size={18} />
+                <Facebook size={18} aria-hidden="true" />
               </a>
               <a href="https://www.instagram.com/altermundinet/" target="_blank" rel="noopener noreferrer"
+                aria-label="AlterMundi en Instagram"
                 className="text-lp-gray hover:text-lp-yellow transition-colors">
-                <Instagram size={18} />
+                <Instagram size={18} aria-hidden="true" />
               </a>
               <a href="https://www.youtube.com/playlist?list=PL_Dpv4cu0bAoCJuYNh82t8xlr4G4jxU9o" target="_blank" rel="noopener noreferrer"
+                aria-label="Canal de LibreIncu en YouTube"
                 className="text-lp-gray hover:text-lp-yellow transition-colors">
-                <Youtube size={18} />
+                <Youtube size={18} aria-hidden="true" />
               </a>
             </div>
           </div>

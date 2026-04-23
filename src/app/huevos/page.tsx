@@ -111,7 +111,7 @@ export default function HuevosPage() {
 
             <div className="card overflow-hidden shadow-md">
               <Image
-                src="/images/huevos/nosepuedeincubar.png"
+                src="/images/huevos/nosepuedeincubar.jpg"
                 alt="Ejemplos de huevos que no se deben incubar"
                 width={800} height={600}
                 className="w-full h-auto object-cover"
@@ -179,7 +179,7 @@ export default function HuevosPage() {
 
           <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200">
             <Image
-              src="/images/huevos/procesodeincubacion.png"
+              src="/images/huevos/procesodeincubacion.jpg"
               alt="Progreso de incubación - Desarrollo del embrión día a día"
               width={1200} height={800}
               className="w-full h-auto"
@@ -215,7 +215,7 @@ export default function HuevosPage() {
         <section className="mt-12">
           <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200">
             <Image
-              src="/images/huevos/cuadro.png"
+              src="/images/huevos/cuadro.jpg"
               alt="Cuadro de problemas y posibles causas en la incubación"
               width={1200} height={800}
               className="w-full h-auto"
