@@ -27,6 +27,11 @@ jobs:
 
       - run: npm ci
 
+      # Workaround for npm optional-deps bug: package-lock.json was generated
+      # on a non-linux host, so `npm ci` skips @next/swc-linux-x64-gnu and
+      # the build fails to load the SWC binary. Install it explicitly.
+      - run: npm install --no-save @next/swc-linux-x64-gnu
+
       - run: npm run build
 
       - name: Verify static export exists
