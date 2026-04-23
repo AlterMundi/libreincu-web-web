@@ -50,13 +50,20 @@ const features = [
     color: 'text-lp-black',
     bg: 'bg-lp-yellowLight',
   },
+  {
+    icon: Network,
+    title: 'Conectividad Real',
+    desc: 'Dos modos: AP para conexión directa sin conexión a internet. Online para registro histórico, monitoreo y control.',
+    color: 'text-lp-white',
+    bg: 'bg-lp-black',
+  },
 ];
 
 const navCards = [
   {
     href: '/manual',
     icon: Egg,
-    title: 'Manual de Armado',
+    title: 'Manual de usuario',
     desc: 'Todo sobre selección de huevos, incubación y armado de LibreIncu.',
     color: 'border-lp-gray hover:border-lp-yellow',
     badge: 'Guías',
@@ -77,14 +84,7 @@ const navCards = [
     color: 'border-lp-yellowLight hover:border-lp-yellow',
     badge: 'Software',
   },
-  {
-    href: '/aplicacion',
-    icon: BookOpen,
-    title: 'Manual de Usuario',
-    desc: 'Guía completa de uso, conexión, funciones y configuración de la app.',
-    color: 'border-lp-gray hover:border-lp-yellow',
-    badge: 'Documentación',
-  },
+
   {
     href: '/huevos',
     icon: Egg,
@@ -173,9 +173,9 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="tag mb-4 inline-block bg-lp-gray text-lp-black">Por qué hacemos esto</span>
-            <h2 className="section-title text-lp-black">De la Triple Dependencia a la Autonomía</h2>
+            <h2 className="section-title text-lp-black">Desarrollo Tecnológico Comunitario</h2>
             <p className="text-lp-grayDark font-medium leading-relaxed mb-6">
-              La producción avícola de base enfrenta el monopolio global en genética, forraje e infraestructura técnica. LibreIncu actúa como cuña operativa.
+              La producción avícola de la AFCI enfrenta el monopolio global en genética, alimentación e infraestructura técnica. LibreIncu es una propuesta para desarrollar soberanías tecnológicas y productivas.
             </p>
             <p className="text-lp-black leading-relaxed mb-6">
               El proyecto LibreIncu es impulsado desde{' '}
@@ -185,7 +185,7 @@ export default function Home() {
               para desarrollar la infraestructura tecnológica comunitaria (equipos, software y sensores como la "LibreIncu") que permita a la Agricultura Familiar, Campesina e Indígena reproducir pollitos y recuperar razas camperas de forma autosuficiente y ecológica.
             </p>
             <Link href="/nosotros" className="text-lp-yellowDark hover:text-lp-yellow font-bold flex items-center gap-1 group">
-              Leé nuestro manifiesto
+              Lee nuestro enfoque de Innovación tecnológica con impacto social y ambiental sustentable
               <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -212,7 +212,7 @@ export default function Home() {
               </div>
               <div className="p-4 bg-white">
                 <p className="font-semibold text-lp-black">▶ Presentación LibreIncu</p>
-                <p className="text-sm text-lp-grayDark mt-1">Nuestra herramienta de hardware principal</p>
+                <p className="text-sm text-lp-grayDark mt-1">Nuestro desarrollo ya en producción en ambientes reales</p>
               </div>
             </a>
           </div>

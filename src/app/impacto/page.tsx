@@ -35,9 +35,9 @@ export default function ImpactoPage() {
                     </div>
                     <div className="card p-8 bg-lp-black text-lp-white">
                         <div className="text-5xl font-black mb-2 text-lp-yellow">1era</div>
-                        <p className="font-bold text-lg mb-2 text-lp-gray">Red de Monitoreo</p>
+                        <p className="font-bold text-lg mb-2 text-lp-gray">Registro Histórico</p>
                         <p className="text-sm text-lp-grayDark">
-                            Pruebas exitosas de telemetría a través de redes mesh, logrando monitoreo sin internet centralizado.
+                            Evaluación productiva continua mediante registro histórico en tiempo real de los parámetros de incubación.
                         </p>
                     </div>
                     <div className="card p-8 bg-lp-gray border-2 border-lp-yellow">
@@ -56,12 +56,12 @@ export default function ImpactoPage() {
                     </h2>
                     <ul className="space-y-4">
                         <li className="flex flex-col">
-                            <strong>Despliegue de los Primeros Prototipos Beta</strong>
-                            <span className="text-sm text-lp-grayDark">Varias unidades LibreIncu entregadas a familias de CTO para el comienzo de las pruebas empíricas del primer ciclo completo de cría.</span>
+                            <strong>Despliegue de 8 incubadoras</strong>
+                            <span className="text-sm text-lp-grayDark">Libreincu ya está en producción en 8 cooperativas de la provincia de Córdoba. Con excelentes resultados productivos a partir de la evaluación de los datos a través de grafana.</span>
                         </li>
                         <li className="flex flex-col">
-                            <strong>Aplicación Móvil en Fase Estable</strong>
-                            <span className="text-sm text-lp-grayDark">La aplicación para Android "App LibreIncu" permite ahora la configuración de alarmas sonoras e hidratación manual remotas.</span>
+                            <strong>Aplicación Móvil</strong>
+                            <span className="text-sm text-lp-grayDark">La aplicación para Android "App LibreIncu" permite ahora el control exhaustivo de parámetros y alertas en tiempo real de manera remota e integrada al ecosistema.</span>
                         </li>
                         <li className="flex flex-col">
                             <strong>Validación del Sistema Térmico PID</strong>
@@ -124,7 +124,7 @@ export default function ImpactoPage() {
                                 </div>
                             </div>
                             <div className="p-4">
-                                <h3 className="font-bold text-lg mb-1">Mesa de Innovación</h3>
+                                <h3 className="font-bold text-lg mb-1">Equipo de Trabajo</h3>
                                 <p className="text-sm text-lp-grayDark">Entrevistas con el equipo de AlterMundi discutiendo los próximos pasos en robótica rural.</p>
                             </div>
                         </a>

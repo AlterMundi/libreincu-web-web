@@ -3,7 +3,7 @@ import PageHeader from '@/components/PageHeader';
 import { Radio, Server, Smartphone, Database, Globe, Cpu, Network } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Ecosistema Informático para la Agricultura Familiar',
+  title: 'Ecosistema LibreAgro para la Agricultura Familiar',
   description: 'Arquitectura IoT para zonas rurales con LoRa, Libremesh y MeshStatic para economía social y producción sustentable.',
 };
 
@@ -73,7 +73,7 @@ export default function EcosistemaPage() {
   return (
     <>
       <PageHeader
-        title="Ecosistema Informático para la Agricultura Familiar"
+        title="Ecosistema LibreAgro para la Agricultura Familiar"
         subtitle="Arquitectura IoT para zonas rurales con Libremesh, MeshStatic y LoRa. Tecnología integrada para la Economía Social y la Producción Sustentable."
         emoji="🌐"
         badge="Infraestructura & IoT"
@@ -87,7 +87,7 @@ export default function EcosistemaPage() {
             <Globe className="text-lp-yellowDark shrink-0 mt-1" size={22} />
             <div>
               <h2 className="text-xl font-bold text-lp-black mb-2">
-                ¿Qué es un Ecosistema Tecnológico para Economía Social?
+                ¿Qué es LibreAgro? Un Ecosistema Tecnológico para Economía Social
               </h2>
               <p className="text-lp-grayDark leading-relaxed">
                 Es un conjunto integrado de subsistemas, cada uno enfocado en producciones específicas, que incluye
@@ -133,7 +133,7 @@ export default function EcosistemaPage() {
         {/* Advantages */}
         <section>
           <h2 className="text-2xl font-bold text-lp-black mb-6 pb-2 border-b-2 border-lp-gray">
-            Ventajas del Ecosistema Tecnológico
+            Ventajas del Ecosistema LibreAgro
           </h2>
           <div className="grid sm:grid-cols-3 gap-4">
             {[

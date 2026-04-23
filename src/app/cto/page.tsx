@@ -68,21 +68,18 @@ export default function CTOPage() {
           familias campesinas y la experiencia práctica en el manejo de aves de corral y producción avícola.
         </p>
         <p>
-          Somos parte de las comunidades que recibieron las primeras incubadoras LibreIncu y que participaron
-          activamente en las instancias de capacitación, prueba y ajuste del sistema. Nuestras voces y
-          necesidades fueron el punto de partida para el diseño de la tecnología.
+          Somos parte de las comunidades que recibieron las primeras incubadoras LibreIncu y que participamos como co-desarrolladoras, desde el comienzo del proyecto, aportando nuestro "know how" productivo (con 10 años de experiencia en desarrollo de genética y manejo de incubadoras). Nuestras voces y necesidades fueron el punto de partida para el diseño de la tecnología.
         </p>
 
         <h2>Soberanía Alimentaria y Tecnológica</h2>
         <p>
           Creemos que la autonomía productiva de las familias campesinas pasa por recuperar el control
-          sobre las herramientas que usamos. La incubación artificial con tecnología libre y reparable
+          sobre las herramientas que usamos. La incubación con tecnología libre y reparable
           nos permite recuperar líneas genéticas propias y romper con la dependencia del pollito bebé
           industrial.
         </p>
         <p>
-          Este proyecto es un ejemplo concreto de que la tecnología puede ponerse al servicio de los
-          territorios y las comunidades, y no al revés.
+          Este proyecto es un ejemplo concreto de cómo la tecnología puede desarrollarse a partir de las necesidades reales productivas, con los protagonistas como codesarrolladores y dar respuestas eficientes a este sector.
         </p>
 
       </section>
