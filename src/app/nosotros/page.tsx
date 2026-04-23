@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { HeartHandshake, ExternalLink, Newspaper, Play, BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Sobre el Proyecto – LibreIncu',
-  description: 'Conocé la misión, el equipo, la historia y la prensa detrás del proyecto LibreIncu.',
+  title: 'Sobre el Proyecto',
+  description: 'Conocé la misión, el equipo y la historia de LibreIncu: una incubadora de tecnología libre co-diseñada con la Agricultura Familiar, Campesina e Indígena de Córdoba.',
 };
 
 const articles = [

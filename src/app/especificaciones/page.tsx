@@ -4,7 +4,7 @@ import { Ruler, Thermometer, Droplets, RotateCcw, Cpu, Wifi, CheckCircle } from 
 
 export const metadata: Metadata = {
   title: 'Especificaciones Técnicas',
-  description: 'Especificaciones técnicas completas de hardware y software de la incubadora LibreIncu.',
+  description: 'Especificaciones técnicas de la incubadora LibreIncu: dimensiones, capacidad, hardware de control, sensores, software de monitoreo y conectividad.',
 };
 
 const specs = [

@@ -3,8 +3,8 @@ import PageHeader from '@/components/PageHeader';
 import { Radio, Server, Smartphone, Database, Globe, Cpu, Network } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Ecosistema LibreAgro para la Agricultura Familiar',
-  description: 'Arquitectura IoT para zonas rurales con LoRa, Libremesh y MeshStatic para economía social y producción sustentable.',
+  title: 'Ecosistema LibreAgro',
+  description: 'Arquitectura IoT para zonas rurales basada en LoRa, Libremesh y MeshStatic, pensada para la economía social, la agricultura familiar y la producción sustentable.',
 };
 
 const components = [

@@ -57,26 +57,28 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Mobile Nav */}
-      {isOpen && (
-        <div id="mobile-navigation" className="lg:hidden bg-white border-t border-lp-gray py-2">
-          <div className="max-w-7xl mx-auto px-4 space-y-1">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${pathname === item.href
-                  ? 'bg-lp-gray text-lp-black'
-                  : 'text-lp-grayDark hover:text-lp-black hover:bg-lp-white'
-                  }`}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
+      {/* Mobile Nav — always rendered so `aria-controls` target exists; toggled via `hidden` */}
+      <div
+        id="mobile-navigation"
+        hidden={!isOpen}
+        className="lg:hidden bg-white border-t border-lp-gray py-2"
+      >
+        <div className="max-w-7xl mx-auto px-4 space-y-1">
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={() => setIsOpen(false)}
+              className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${pathname === item.href
+                ? 'bg-lp-gray text-lp-black'
+                : 'text-lp-grayDark hover:text-lp-black hover:bg-lp-white'
+                }`}
+            >
+              {item.label}
+            </Link>
+          ))}
         </div>
-      )}
+      </div>
     </nav>
   );
 }

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | LibreIncu',
   },
   description:
-    'Incubadora avícola de tecnología libre con monitoreo y control en línea, diseñada junto a la Agricultura Familiar, Campesina e Indígena (AFCI) de Córdoba, Argentina, como parte del ecosistema LibreAgro de AlterMundi y la CTO.',
+    'Incubadora avícola de tecnología libre con monitoreo y control en línea, co-diseñada con la AFCI de Córdoba, Argentina. Parte del ecosistema LibreAgro de AlterMundi y la CTO.',
   keywords: ['LibreIncu', 'LibreAgro', 'incubadora', 'soberanía alimentaria', 'tecnología libre', 'agricultura familiar', 'AFCI', 'AlterMundi', 'CTO', 'Córdoba', 'Argentina'],
   authors: [{ name: 'AlterMundi & CTO' }],
   creator: 'AlterMundi & CTO',

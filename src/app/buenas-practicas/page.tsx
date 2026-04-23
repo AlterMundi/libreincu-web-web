@@ -3,7 +3,7 @@ import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Guía de Buenas Prácticas de Incubación',
-  description: 'Preguntas guía para evaluar el manejo de reproductores, huevos fértiles e incubación.',
+  description: 'Preguntas guía para evaluar y mejorar el manejo de reproductores, huevos fértiles e incubación en la Agricultura Familiar, Campesina e Indígena.',
 };
 
 const groups = [

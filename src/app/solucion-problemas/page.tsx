@@ -4,8 +4,8 @@ import PageHeader from '@/components/PageHeader';
 import { AlertTriangle, Droplets, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Solución de Problemas – LibreIncu',
-  description: 'Diagnóstico y solución de problemas paso a paso para la incubadora LibreIncu.',
+  title: 'Solución de Problemas',
+  description: 'Diagnóstico y solución de problemas paso a paso de la incubadora LibreIncu: humedad, temperatura, lecturas erráticas y resolución de fallas comunes.',
 };
 
 const multimeterSteps = [

@@ -5,7 +5,7 @@ import { AlertTriangle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Huevos Fértiles e Incubación',
-  description: 'Guía completa sobre selección, almacenamiento y proceso de incubación de huevos fértiles.',
+  description: 'Guía completa sobre huevos fértiles: selección, almacenamiento, manejo y proceso de incubación paso a paso para obtener buenos porcentajes de eclosión.',
 };
 
 export default function HuevosPage() {

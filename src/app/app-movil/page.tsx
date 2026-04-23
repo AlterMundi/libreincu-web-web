@@ -4,8 +4,8 @@ import AppDemo from '@/components/AppDemo';
 import { Smartphone, Wifi, Bell, BarChart2, BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Demo App Móvil – LibreIncu',
-  description: 'Explorá de forma interactiva la aplicación Android de control y monitoreo de la incubadora LibreIncu.',
+  title: 'Demo de la App Móvil',
+  description: 'Explorá de forma interactiva la aplicación Android de control y monitoreo de LibreIncu: temperatura, humedad, alertas y estadísticas desde el celular.',
 };
 
 const features = [

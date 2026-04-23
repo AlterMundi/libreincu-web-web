@@ -4,7 +4,7 @@ import { Thermometer, Droplets, RotateCcw, Cpu, Wifi, MapPin, AlertTriangle, Che
 
 export const metadata: Metadata = {
   title: 'Manual Básico de Incubadoras LibreIncu',
-  description: 'Guía completa de uso, instalación, mantenimiento y solución de problemas de la incubadora LibreIncu.',
+  description: 'Manual básico de la incubadora LibreIncu: instalación, uso diario, mantenimiento, control de temperatura y humedad, y resolución de problemas frecuentes.',
 };
 
 const components = [

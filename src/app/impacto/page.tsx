@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { ArrowUpRight, CheckCircle2, Video } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Avances e Impacto',
-    description: 'Métricas, despliegues y resultados del proyecto LibreIncu en el territorio.',
+    title: 'Avances e Impacto en el Territorio',
+    description: 'Métricas, despliegues y resultados del proyecto LibreIncu en el territorio: incubadoras instaladas, comunidades alcanzadas y prensa sobre la iniciativa.',
 };
 
 export default function ImpactoPage() {

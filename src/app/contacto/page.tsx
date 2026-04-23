@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { Mail, MapPin, Globe, Github, Twitter, Facebook, Instagram, Youtube, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Contacto',
-  description: 'Canales de comunicación, redes sociales y ubicación del proyecto LibreIncu.',
+  title: 'Contacto y Redes Sociales',
+  description: 'Escribinos, seguinos en redes o encontranos en Córdoba. Canales de comunicación, redes sociales y ubicación del proyecto LibreIncu.',
 };
 
 const socialLinks = [

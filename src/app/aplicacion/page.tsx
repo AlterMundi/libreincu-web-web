@@ -7,8 +7,8 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Manual de Usuario – App LibrePollo',
-  description: 'Manual de usuario de la aplicación LibrePollo para controlar y monitorear tu incubadora LibreIncu desde el celular.',
+  title: 'Manual de la App LibrePollo',
+  description: 'Manual de usuario de la app LibrePollo: controlá y monitoreá tu incubadora LibreIncu desde el celular — alertas, temperatura, humedad, volteos y configuración.',
 };
 
 export default function AplicacionPage() {
