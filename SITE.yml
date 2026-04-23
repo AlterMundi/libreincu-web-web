@@ -1,0 +1,9 @@
+domain: libreincu.altermundi.net
+slug: libreincu-website
+has_contact_form: false
+notes: >
+  LibreIncu (LibreIncubadora) project page — part of the LibreAgro
+  section of the AlterMundi site family. Hosted on the AlterMundi
+  multi-site static platform (yupanki CT 127). Infra-as-code:
+  AlterMundi/Alter-infra yupanki/static-sites/. Design spec:
+  docs/superpowers/specs/2026-04-22-altermundi-static-sites-platform-design.md.

@@ -1,0 +1,46 @@
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy-libreincu-website
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    # Runs on the AlterMundi org self-hosted runner on the yupanki PVE host.
+    # Provisioned by Alter-infra yupanki/host/github-runner/provision.sh.
+    runs-on: [self-hosted, yupanki]
+    env:
+      SLUG: libreincu-website
+      CTID: "127"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Verify static export exists
+        run: test -d out && test -f out/index.html
+
+      - name: Ensure staging directory exists on CT 127
+        run: |
+          sudo /usr/sbin/pct exec "$CTID" -- bash -c "rm -rf /srv/www/${SLUG}.new && mkdir -p /srv/www/${SLUG}.new"
+
+      - name: Stream build artifact into CT 127 staging
+        run: |
+          tar -C out -cf - . \
+            | sudo /usr/sbin/pct exec "$CTID" -- tar -C /srv/www/${SLUG}.new -xf -
+
+      - name: Promote release atomically
+        run: |
+          sudo /usr/sbin/pct exec "$CTID" -- /usr/local/bin/promote "$SLUG"
