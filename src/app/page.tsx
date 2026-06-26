@@ -15,6 +15,7 @@ import {
   ExternalLink,
   Network,
   Smartphone,
+  Wheat,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -161,6 +162,12 @@ export default function Home() {
                 className="btn-secondary flex items-center gap-2">
                 <ExternalLink size={18} />
                 Repositorios
+              </Link>
+              <Link href="https://materialavicola.altermundi.net/"
+                target="_blank" rel="noopener noreferrer"
+                className="btn-secondary flex items-center gap-2">
+                <Wheat size={18} />
+                Material Avícola
               </Link>
             </div>
           </div>
